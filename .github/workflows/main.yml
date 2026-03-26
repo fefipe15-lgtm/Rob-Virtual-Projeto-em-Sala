@@ -19,6 +19,6 @@ jobs:
 
       - name: Rodar app
         run: node app.js
-
+        run: node test.js
       - name: Sucesso
         run: echo "Pipeline executado com sucesso!"
